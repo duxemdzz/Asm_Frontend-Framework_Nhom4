@@ -1,0 +1,42 @@
+
+.hop_lon{
+    width: 300px;
+    height: 500px;
+    border: 2px solid red;
+    margin: 100px 200px 300px 600px;
+    position: relative;
+    border-radius: 5px;
+    text-align: center;
+   
+}
+#logo{
+    position: absolute;
+    bottom: 30px;
+    padding-left: 30px;
+}
+#logo h1{
+    font-size: 50px;
+    font-weight: bolder;
+    font-variant: small-caps;
+    text-shadow: 0 0 20px red;
+    color: pink ;
+    padding-left: 10px;
+}
+form{
+    padding-bottom: 120px;
+}
+input{
+    margin-bottom: 20px;
+}
+button{
+    background-color: red;
+}
+a{
+    text-decoration: none;
+    color: red;
+}
+a:hover{
+    color: blue;
+}
+
+

@@ -1,0 +1,20 @@
+.footer{
+    width: 1000px;
+    height: 20px;
+    background-color:rosybrown;
+    text-align: center;
+}
+
+.mau_sac{
+    width: 120px;
+    height: 20px;
+    background-color:violet;
+}
+.no_color{
+    width: 500px;
+    height: 20px;
+    background-color: white;
+    float: left;
+    text-align: left;
+}
+

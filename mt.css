@@ -1,0 +1,63 @@
+ .column{
+    width:25%;
+    float:left;
+
+ }
+ .column:hover{
+   box-shadow: inset 0 0 20px red  ;
+   background:none;
+ }
+ 
+ .san-pham{
+    border-radius:10px;
+    box-shadow: 0 0 5px gray;
+
+    text-align: center;
+    border:5px solid aqua;
+ }
+
+
+ .san-pham .ten{
+    font-size:larger;
+    font-variant: small-caps;
+    color: blue;
+ }
+ 
+ .san-pham img{
+    max-width: 95%;
+ }
+
+ .san-pham .gia{
+    color: red;
+    font-weight:bold;
+    font-size:larger;
+ }
+ 
+.san-pham .gia del{
+    color:gray;
+    text-align: center;
+
+}
+button{
+   border: none;
+   background: none;
+
+}
+a{
+   text-decoration: none;
+}
+a:link{
+   color:cadetblue;
+}
+a:visited{
+   color:crimson;
+}
+a:hover{
+   color:greenyellow;
+}
+a:active{
+   color:orange;
+}
+
+
+

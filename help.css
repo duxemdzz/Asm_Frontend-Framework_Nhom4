@@ -1,0 +1,34 @@
+h1{
+    margin-left: 100px;
+    color:white;
+}
+input{
+
+    margin-left: 100px;
+    width: 500px;
+    height: 50px;
+    border-radius: 10px;
+    outline: none;
+  
+}
+p{
+    margin-left: 100px;
+}
+h2{
+    margin-left: 100px;
+}
+.duoi{
+    margin-left: 100px;
+    
+}
+.duoi>a{
+    text-decoration: none;
+}
+.duoi>a:hover{
+    color: rgb(185, 185, 47) ;
+   
+}
+.tren{
+    width: 1000px;
+    background-color: orangered;
+}

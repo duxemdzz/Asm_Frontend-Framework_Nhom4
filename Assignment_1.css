@@ -1,0 +1,210 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}/*kích thước trang web*/
+.container{
+    margin: 0 auto;
+    width: 1200px;
+}
+/*Phần đầu*/
+#banner{
+    min-height: 300px;
+    background-color: cadetblue;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    position: relative;
+}
+/*phần trên cùng bên phải*/
+#top-menu{
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    background-color:rgb(214, 176, 198);
+    height: 20px;
+    border-bottom-left-radius: 30px;
+    padding: 5px 10px 5px 20px;
+    border-bottom-right-radius: 30px;
+}
+/*phần trên cùng bên Phải*/
+#top-menu a{
+    text-decoration: none;
+    color: crimson;
+    font-size: 20px;
+    font-variant: small-caps;
+    font-weight: bolder;
+    border-radius: 5px;
+}
+/*phần trên cùng bên Phải*/
+#top-menu a:hover{
+    box-shadow: 0 0 20px red  ;
+    background: aqua ;
+}
+/* kích thước menu ngang trên cùng*/
+
+.menu{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    background-color:rgb(214, 176, 198);
+    height: 30px;
+    width: auto;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 30px;
+
+}
+.menu .hmenu{
+    margin: 0px;
+    border-radius: 5px;
+    list-style: none;
+    height: 40px;
+}
+.menu ul.hmenu>li>a{
+    font-size: 20px;
+    color: crimson;
+    font-weight: bolder;
+    border-radius: 5px;
+    padding-right:5px;
+    display: block;
+    text-decoration: none;
+    font-variant: small-caps;
+    padding-right:10px;
+    padding-top: 0px;
+   
+}
+.menu ul.hmenu>li>a:hover{
+    box-shadow: 0 0 20px red  ;
+    background: aqua ;
+}
+.menu ul.hmenu>li{
+    float: left;
+   
+}
+
+/*phần Chữ*/
+#logo{
+    position: absolute;
+    width: 500px;
+    height: 100px;
+    bottom: 30px;
+    left: 0px;;
+}
+#logo h1{
+    font-size: 30px;
+    font-weight: bolder;
+    word-spacing: 10px;
+    letter-spacing: 20px;
+    font-variant: small-caps;
+    text-shadow: 0 0 30px red;
+    color: rgba(24, 167, 43, 0.918) ;
+    margin-left: 10px;
+}
+#logo p{
+    font-size: 25px;
+    font-weight: bolder;
+    font-variant: small-caps;
+    color:blue;
+    margin-left: 10px;
+}    
+/*phần nội dung bên trái*/
+#content-left{
+    width: 75%;
+    min-height: 400px;
+    float: right;
+    margin-bottom: 5px;
+}
+/*phần nội dung bên trái*/
+#content-right{
+    width: 25%;
+    min-height: 400px;
+    background-color:aquamarine;
+    float: left;
+    margin-bottom: 5px;
+}
+/*Phần chân trang*/
+#footer{
+    min-height: 30px;
+    background-color: olive;
+    clear: both;
+}
+#footer{
+    border-top:5px double orangered;
+    line-height:50px;
+    background-color:pink;
+    text-align:center;
+    font-variant:small-caps;
+    clear:both; 
+}
+/*định dạng thẻ a*/
+nav ul li a{
+    text-decoration: none;
+}
+/*menu đứng bên*/
+.vmenu{
+    padding:0px;
+    margin:5px ;
+    list-style:none ;
+    border-radius:3px ;
+    box-shadow:0 0 2 px gray; 
+}  
+.vmenu a{
+    background: url('images/icon_tt.png') no-repeat 10px center;
+    display: block;
+    border-bottom: 1px dotted orangered;
+    color: orangered;
+    font-variant: small-caps;
+    font-size: larger;
+    text-decoration: none ;
+    padding: 8px 5px 8px 30px ;
+}
+.vmenu a:hover{
+    background: url(images/icon_1.gif) no-repeat 10px center;
+    border-bottom: 1px dotted white;
+    background-color: orangered;
+    color: white;
+    font-weight: bold ;
+}
+
+/*khung vuông nội dung*/
+iframe[name=page]{
+    width: 100%;
+    min-height: 400px;
+}
+/*Thanh search*/
+.thanhsearch{
+    position: absolute;
+    top:0px;
+    left: 0px;
+    margin-top: 50px;
+    margin-left: 250px;
+}
+.thanh{
+    outline: none;
+    border: 2px solid green;
+    border-radius: 5px;
+   
+}
+.search{
+    outline: none;
+    border: 2px solid green;
+    border-radius: 5px;
+    color: white;
+    background-color: tomato;
+   
+}
+.menu-con{
+    width: 170px;
+    height: 160px;
+    background-color: aqua;
+    border: 1px solid red;
+    position:absolute;
+    display: none;
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+    text-align: left;
+    padding: 5px;
+   
+}
+.bando{
+    margin-left: 400px;
+}

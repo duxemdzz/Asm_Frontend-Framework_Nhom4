@@ -1,0 +1,100 @@
+
+.hop_lon{
+    width: 300px;
+    height: 500px;
+    border: 2px solid red;
+    margin: 100px 200px 300px 600px;
+    position: relative;
+    border-radius: 5px;
+    text-align: center;
+   
+}
+#logo{
+    position: absolute;
+    bottom: 0px;
+    padding-left: 30px;
+}
+#logo h1{
+    font-size: 50px;
+    font-weight: bolder;
+    font-variant: small-caps;
+    text-shadow: 0 0 20px red;
+    color: pink ;
+    padding-left: 10px;
+}
+form{
+    padding-bottom: 120px;
+}
+input{
+    margin-bottom: 20px;
+}
+.signup{
+    background-color: red;
+}
+a{
+    text-decoration: none;
+    color: red;
+}
+a:hover{
+    color: blue;
+}
+.sua{
+    background-color:aqua;
+    color: white;
+}
+h3{
+    text-align: center;
+}
+.Facebook{
+    width: 80px;
+    height: 30px;
+    text-align: center;
+    border: none;
+    outline: none;
+    color: white ;
+    background-color: blue;
+
+}
+.Facebook:hover{
+    box-shadow: inset 0px 0px 10px aqua;
+    color:red;
+}
+.Google{
+    width: 80px;
+    height: 30px;
+    text-align: center;
+    border: none;
+    outline: none;
+    color: white ;
+background-color: blue;
+
+}
+.Google:hover{
+    box-shadow: inset 0px 0px 10px aqua;
+    color: red;
+}
+.Apple{
+    width: 80px;
+    height: 30px;
+    text-align: center;
+    border: none;
+    outline: none;
+    color: white ;
+background-color:black;
+
+}
+.Apple:hover{
+    box-shadow: inset 0px 0px 10px aqua;
+    color: red;
+}
+.tt{
+    width: 80px;
+    height: 30px;
+    text-align: center;
+    border: none;
+    outline: none;
+    color: white ;
+    background-color: blue;
+}
+
+

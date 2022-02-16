@@ -1,0 +1,22 @@
+.duoi{
+    margin-left: 100px;
+    
+}
+.duoi>a{
+    text-decoration: none;
+}
+.duoi>a:hover{
+    color: rgb(185, 185, 47) ;
+}
+a{
+    text-decoration: none;
+}
+img{
+    margin-left: 100px;
+}
+p{
+    margin-left: 100px;
+}
+h1{
+    margin-left: 100px;
+}
